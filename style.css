@@ -10,7 +10,8 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 }
 #show{
     display: flex;
