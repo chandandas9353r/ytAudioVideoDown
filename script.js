@@ -11,7 +11,7 @@ videoLink.addEventListener('paste', () => {
 })
 
 videoLink.addEventListener('cut', () => {
-    showType.src = './NULL.gif'
+    if(videoLink.value == '') showType.src = './NULL.gif'
 })
 
 videoLink.addEventListener('keyup', () => {
