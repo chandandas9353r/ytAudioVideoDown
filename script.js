@@ -6,10 +6,10 @@ let downloadBtn = document.getElementById('downloadBtn'),
 
 showType.src = './NULL.gif'
 
-// videoLink.addEventListener('paste', () => {
-//     if(videoLink.value == '') showType.src = './NULL.gif'
-//     else showType.src = './SOME.gif'
-// })
+videoLink.addEventListener('paste', () => {
+    if(videoLink.value == '') showType.src = './NULL.gif'
+    else showType.src = './SOME.gif'
+})
 
 videoLink.addEventListener('keyup', () => {
     if(videoLink.value == '') showType.src = './NULL.gif'
